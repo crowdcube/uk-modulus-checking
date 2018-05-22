@@ -1,0 +1,12 @@
+{
+  "name": "uk-modulus-checking",
+  "version": "0.0.1",
+  "description": "Validate a UK bank account number against a sort code using the VocaLink modulus check",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup src/UkModulusChecking.js --format cjs --file dist/index.js"
+  },
+  "devDependencies": {
+    "rollup": "^0.59.2"
+  }
+}
